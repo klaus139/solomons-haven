@@ -6,12 +6,12 @@ const Footer = () => {
   return (
     <>
       <footer>
-        <div className='grid'>
+        <div className='container grid'>
           <div className='box'>
             <h2>ABOUT US</h2>
-            <p>We are a Non-Governmental Organisation that supports women, girls and children</p>
-            
-            <p>We offer humanitarian services to Women in need of love, care, protection and shelter and we ensure we let them know they are not alone.</p>
+            <p>We are a Non-Governmental Organisation that aims at helping widows, children and the women.</p>
+            <br />
+            <p>Our goal is to provide shelter, food, protection and warmnt for women and children living in rural communities. We are an affiliate of Widows-rendezvous UK</p>
             <div className='icon flex_space'>
             <a href="https://www.linkedin.com/in/haybravo-international-limited-75b1a7283" className="social-media-link w-inline-block">
                       <img
@@ -48,41 +48,40 @@ const Footer = () => {
                 class="social-icon"
               />
             </a>
-              <i className='fab fa-pinterest'></i>
-              <i className='fab fa-youtube'></i>
+            
             </div>
           </div>
 
           <div className='box'>
             <h2>NAVIGATION</h2>
-            <ul className="link-list">
-              <li className="list">
+            <ul>
+              <li>
                 <Link to='/'>Home</Link>
               </li>
-              <li className="list">
+              <li>
                 <Link to='/about'>About us</Link>
               </li>
-              <li className="list">
+              <li>
                 <Link to='/gallery'>Gallery</Link>
               </li>
-              <li className="list">
+              <li>
                 <Link to='/destinations'>Donations</Link>
               </li>
-              <li className="list">
+              <li>
                 <Link to='/blog'>Blog</Link>
               </li>
-              <li className="list">
+              <li>
                 <Link to='/testimonial'>Testimonial</Link>
               </li>
-              <li className="list">
+              <li>
                 <Link to='/contact'>Contact Us</Link>
               </li>
             </ul>
           </div>
 
-          <div className='post'>
+          <div className='box post'>
             <h2>RECENT POSTS</h2>
-            <ul className="post-list">
+            <ul>
               <li>
                 <p>Lorem ipsum dolor sit amet sectetur adipiscing elit amet</p>
                 <label className='fa fa-calendar-alt'></label>
@@ -101,17 +100,17 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div className='news'>
+          <div className='box'>
             <h2>NEWSLETTER</h2>
-            <p>Subscribe to our newsletter</p>
+            <p>Lorem ipsum dolor sit amet sectetur adipiscing elit amet</p>
 
-          
+            <input type='text' name='' id='' />
             <input type='text' className='primary-btn' value='SUBSCRIBE' />
           </div>
         </div>
       </footer>
       <div className='legal'>
-        <p>© 2023 All Rights Reserved.</p>
+        <p>© 2022 All Rights Reserved.</p>
       </div>
     </>
   )
