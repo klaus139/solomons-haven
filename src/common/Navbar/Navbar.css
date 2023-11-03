@@ -1,5 +1,5 @@
 .navbar {
-    background-color: #f1edf6;
+    background-color: #fbfafbd3;
     height: 70px;
     display: flex;
     justify-content: center;
@@ -177,7 +177,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: #C30047;;
+    background-color: #6a1433;;
     padding:5px;
     
   }
