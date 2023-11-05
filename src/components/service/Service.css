@@ -70,6 +70,13 @@
     color: rgb(51, 2, 51);
     font-family:Impact, Haettenschweiler, sans-serif;
 }
+.service-item h1:hover{
+    color: rgb(14, 1, 14);
+    font-size: 3.5rem;
+    font-weight: 500;
+    font-family:Impact, Haettenschweiler, sans-serif;
+    transition: 0.5s ease-in-out;
+}
 
 .service-item p{
     display: flex;

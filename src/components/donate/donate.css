@@ -1,0 +1,65 @@
+/* donate.css */
+
+.donate-container {
+    background: url(../../assets/gala2.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 600px;
+    display: flex;
+    justify-content: flex-end; /* Align to the right */
+    align-items: center;
+    padding-right: 20px; /* Added padding to the right */
+  }
+
+.d-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Align to the right */
+    background-color: rgba(255, 255, 255, 0.8); /* Use rgba for background color with some transparency */
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
+    padding: 20px; /* Added padding to create some space inside the box */
+  }
+
+.d-text {
+     /* This moves the text to the right */
+    text-align: center; /* Adjust text alignment to the right */
+  }
+
+h1 {
+    font-size: 48px;
+    color: rgb(51, 2, 51);
+    margin-bottom: 10px;
+    font-weight: bolder;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+
+p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.4;
+  }
+
+.d-btn {
+    background-color:rgb(51, 2, 51);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 20px 30px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+.d-btn:hover {
+    background-color: rgb(17, 1, 17);
+    transition: 0.5s ease-in;
+  }
+
+  @media screen and (max-width: 460px){
+    .d-box{
+        margin-left: 20px;
+    }
+  }
