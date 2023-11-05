@@ -19,6 +19,11 @@
   .aboutCard .image {
     position: relative;
   }
+
+  .about-image{
+    width:550px;
+    height:340px;
+  }
   .aboutCard .control-btn button {
     left: 40%;
   }
@@ -93,4 +98,15 @@
     .aboutCard img {
       width: 100%;
     }
+  }
+
+  @media screen and (max-width: 768px) {
+    .aboutCard h1 {
+      font-size: 25px;
+      font-weight: 100;
+    }
+    .aboutCard h1 span {
+      font-weight: bold;
+    }
+
   }

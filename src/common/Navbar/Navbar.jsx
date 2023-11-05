@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 import {AiOutlinePhone} from 'react-icons/ai'
 import "./Navbar.css";
 import { images } from "../../constants";
-import { CodeIcon, HamburgetMenuClose, HamburgetMenuOpen } from "./Icons";
+import { HamburgetMenuClose, HamburgetMenuOpen } from "./Icons";
 
 const Navbar =()=> {
   const [click, setClick] = useState(false);

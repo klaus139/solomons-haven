@@ -170,6 +170,8 @@
       height: 2rem;
       cursor: pointer;
       color: rgb(51, 2, 51);
+      margin-top: -15px;
+      margin-right: -20px;
     }
   }
 
