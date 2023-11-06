@@ -15,8 +15,8 @@ const Home = () => {
     <MostPopular />
     <Whoweare />
     <Service />
-    <Donate />
-    <Joinus />
+    <Donate /> 
+     <Joinus />
     
     
     </>

@@ -168,5 +168,17 @@
         height:20px;
         
     }
+    .join-btn {
+      width: 120px;
+      height: 40px;
+      background-color: rgb(51, 2, 51);
+      border: none;
+      border-radius: 20px;
+      color: whitesmoke;
+      font-size: 13px;
+      padding: 10px;
+      cursor: pointer;
+      transition: all 0.3s; /* Added transition for smoother hover effect */
+    }
   }
   
