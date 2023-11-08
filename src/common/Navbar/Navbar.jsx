@@ -13,12 +13,12 @@ const Navbar =()=> {
     <>
     <div className="upper-links">
       <div className="phone-links">
-        <AiOutlinePhone /> UK : +447984648501 | NG: +2348177429702 | +2347088105985
+        <AiOutlinePhone /> UK : +447984648501 | NG: 07088105985
       </div>
       <div className="navigation-button-wrap">
             <div className="nav-social-media-wrap">
               <a
-                href="https://instagram.com/haybravosecurity?igshid=NGExMmI2YTkyZg=="
+                href="https://instagram.com"
                 className="social-media-link w-inline-block"
                 ><img
                   src="https://assets.website-files.com/63a43a1633ad3e2a969a6958/63cfc36ddb063a39e687b631_Insta-icon.svg"
@@ -26,7 +26,7 @@ const Navbar =()=> {
                   alt="Instagram Icon"
                   className="social-icon" /></a
               ><a
-                href="https://www.facebook.com/people/Hay-Bravo-international-Security-Consulting-Company-LTD/100083540643909/?paipv=0&eav=AfZk-s4y746llh98g-ucTA49Evlvof1CLxJFw7wUuMuxVa74Hh-VyyK0A-8yJhxdWHw&_rdr"
+                href="https://www.facebook.com/profile.php?id=61552990510905&mibextid=LQQJ4d"
                 className="social-media-link w-inline-block"
                 ><img
                   src="https://assets.website-files.com/63a43a1633ad3e2a969a6958/63cfc46c51c3425c77fb5dc3_fb-icon.svg"
@@ -34,7 +34,7 @@ const Navbar =()=> {
                   alt="Facebook Icon"
                   className="social-icon" /></a
               ><a
-                href="https://www.linkedin.com/in/haybravo-international-limited-75b1a7283"
+                href="https://www.linkedin.com"
                 className="social-media-link w-inline-block"
                 ><img
                   src="https://assets.website-files.com/63a43a1633ad3e2a969a6958/63cfc57ea43e8f10547bacad_linkedIn-icon.svg"

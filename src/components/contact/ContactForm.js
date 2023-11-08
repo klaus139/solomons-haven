@@ -10,7 +10,7 @@ const ContactForm = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_USER_ID')
+    emailjs.sendForm('service_ll9hvoa', 'template_zroe38p', form.current, 'p-tbLsuhs8gF_oSdT')
       .then((result) => {
         console.log(result.text);
         toast.success('Message sent successfully!', {
@@ -37,16 +37,11 @@ const ContactForm = () => {
               <div className='grid1'>
                 <div className='input'>
                   <span>
-                    First Name <label>*</label>
+                    Name <label>*</label>
                   </span>
                   <input type='text' name='name' required />
                 </div>
-                <div className='input'>
-                  <span>
-                    Last Name <label>*</label>
-                  </span>
-                  <input type='text' name='lname' required />
-                </div>
+               
                 <div className='input'>
                   <span>
                     Phone Number <label>*</label>
@@ -63,10 +58,7 @@ const ContactForm = () => {
                   <span>Subject</span>
                   <input type='text' name='subject' />
                 </div>
-                <div className='input'>
-                  <span>Your Company</span>
-                  <input type='text' name='company' />
-                </div>
+                
               </div>
               <div className='input inputlast'>
                 <span>
@@ -84,11 +76,11 @@ const ContactForm = () => {
             <p>We are willing and ready to partner with you.</p>
             <br />
             <h3>Message us</h3>
-            <span>info@exampal.com</span>
+            <span>Solomonshaven23@gmail.com</span>
             <br />
-            <span>+01 123 456 789</span>
+            <span>07088105985</span>
             <br />
-            <div className='icon'>
+            {/* <div className='icon'>
               <h3>Follow Us</h3>
               <div className='flex_space contact-icon'>
               <a
@@ -120,7 +112,7 @@ const ContactForm = () => {
               >
                
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>

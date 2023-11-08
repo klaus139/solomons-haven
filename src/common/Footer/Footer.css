@@ -4,6 +4,10 @@ footer {
     margin-top: 50px;
     padding: 50px 0;
   }
+  .box .flex_space {
+    display:flex;
+    justify-content:flex-start
+  }
   footer .grid {
     grid-template-columns: repeat(4, 1fr);
   }
