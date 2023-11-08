@@ -95,6 +95,17 @@ const Navbar =()=> {
             <li className="nav-item">
               <NavLink
                 exact
+                to="/gallery"
+                activeClassName="active"
+                className="nav-links"
+                onClick={handleClick}
+              >
+                Gallery
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                exact
                 to="/blog"
                 activeClassName="active"
                 className="nav-links"
@@ -106,12 +117,12 @@ const Navbar =()=> {
             <li className="nav-item">
               <NavLink
                 exact
-                to="/blog"
+                to="/testimonial"
                 activeClassName="active"
                 className="nav-links"
                 onClick={handleClick}
               >
-                Gallery
+                Testimonial
               </NavLink>
             </li>
             <li className="nav-item">

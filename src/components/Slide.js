@@ -41,7 +41,7 @@ const Home = ({ slides }) => {
 
       <section className='slide-text'>
         <div className=''>
-          <h2>Support a cause  <br /> you care about</h2>
+          <h2>Support a cause   <br /> you care about</h2>
           <p>Together we can, Giving back through life changing experiences</p>
           <Link to='/contact'>
           <button className="join-btn">Join Us</button>

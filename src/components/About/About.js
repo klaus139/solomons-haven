@@ -1,7 +1,8 @@
-import React from "react"
+import React from "react";
 import "./About.css"
 import AboutCard from "./AboutCard"
-import HeadTitle from "../../Common/HeadTitle/HeadTitle"
+import HeadTitle from '../../common/HeadTitle/HeadTitle';
+import { images } from "../../constants";
 
 const About = () => {
   return (
@@ -18,16 +19,16 @@ const About = () => {
         <div className='container aboutCard flex_space'>
           <div className='row row1'>
             <h1>
-              Our <span>Features</span>
+              Our Goals
             </h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit amet consectetur piscing elit amet consectetur adipiscing elit sed et eletum nulla eu placerat felis etiam tincidunt orci lacus id varius dolor fermum sit amet.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit amet consectetur piscing elit amet consectetur adipiscing elit sed et eletum nulla eu placerat felis etiam tincidunt orci lacus id varius dolor fermum sit amet.</p>
+            <p>Our primary goal is to empower women and children in need. We are dedicated to making positive changes in their lives</p>
+            <p>We do this by engaging in charity donations, food drives, free medical consultations, seminars and workshops, cash donations and lots more.</p>
             <button className='secondary-btn'>
               Explore More <i className='fas fa-long-arrow-alt-right'></i>
             </button>
           </div>
           <div className='row image'>
-            <img src='/images/feature-img-1.jpg' alt='' />
+            <img src={images.about} alt='about' />
             <div className='control-btn'>
               <button className='prev'>
                 <i className='fas fa-play'></i>
