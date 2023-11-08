@@ -1,4 +1,5 @@
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
+import { ToastContainer } from 'react-toastify';
 import Layout from './components/Layout/Layout';
 import './App.css';
 import Home from './pages/Home';
@@ -11,6 +12,7 @@ import Contact from './components/contact/Contact';
 function App() {
   return (
     <>
+    <ToastContainer />
      <BrowserRouter>
    <Routes>
    <Route path="/" element={<Layout />}>

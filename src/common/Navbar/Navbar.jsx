@@ -34,21 +34,12 @@ const Navbar =()=> {
                   alt="Facebook Icon"
                   className="social-icon" /></a
               ><a
-                href="https://twitter.com/BravoHay13872?s=08"
-                className="social-media-link w-inline-block"
-                ><img
-                  src="https://assets.website-files.com/63a43a1633ad3e2a969a6958/63cfc54529c06503197e6691_twiter-icon.svg"
-                  loading="lazy"
-                  alt="Twitter Icon"
-                  className="social-icon" /></a
-              ><a
                 href="https://www.linkedin.com/in/haybravo-international-limited-75b1a7283"
                 className="social-media-link w-inline-block"
                 ><img
                   src="https://assets.website-files.com/63a43a1633ad3e2a969a6958/63cfc57ea43e8f10547bacad_linkedIn-icon.svg"
                   loading="lazy"
                   alt="LinkedIn Icon"
-                  className="social-icon"
               /></a>
             </div>
            
