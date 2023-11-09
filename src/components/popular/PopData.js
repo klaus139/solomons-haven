@@ -36,10 +36,10 @@ const PopularData = [
     },
     {
       id: 6,
-      image: "images/newpop1.webp",
+      image: "images/empowerment.webp",
       country: "Mexico",
-      name: "Sensitization",
-      price: "Spreading the Gospel through charity",
+      name: "Youth Empowerment",
+      price: "Supporting the youth by skill learning",
     },
     {
       id: 7,
@@ -50,10 +50,10 @@ const PopularData = [
     },
     {
       id: 8,
-      image: "images/pop9.jpeg",
+      image: "images/widows.jpeg",
       country: "Thailand",
-      name: "Spreading love",
-      price: "Changing lives one mission at a time",
+      name: "Widows Support",
+      price: "Helping widows with the right support system",
     },
   ]
   

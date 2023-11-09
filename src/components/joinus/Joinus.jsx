@@ -10,7 +10,7 @@ const Joinus = () => {
             <div className='j-text'>
                 <h1>Join With Us</h1>
                 <p>Help us to spread love to the people who needs it the most. Ensuring that they feel the warmt of love, support and charity that we share</p>
-                <Link>
+                <Link to='/contact'>
                 <button className='j-btn'>Join Now</button>
                 </Link>
 

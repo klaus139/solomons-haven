@@ -11,8 +11,8 @@ const Whoweare = () => {
         </div>
         <div className='text-box'>
           <h1>Who we are?</h1>
-          <p>We are Solomon's haven, a dedicated charity organization committed to making a positive impact on the lives of women and children. Our mission is to provide support, care, and opportunities for those in need.</p>
-          <p>We help women and children who are facing various challenges, including poverty, lack of education, healthcare, and more. Our team works tirelessly to empower them and create a brighter future for all.</p>
+          <p>We are Solomon's Haven, a compassionate charity organization dedicated to improving the well-being of women and children. Our core focus areas include: Maternal health, Child Mortality, youth empowerment, literacy program, support initiative and widows empowerment</p>
+                    <p>We actively address challenges such as poverty, lack of education, and healthcare. Our dedicated team works tirelessly to provide support, care, and opportunities, aiming to empower women and children for a brighter and healthier future.</p>
           <Link to='/about'>
             <button className='www-btn'>Learn More</button>
           </Link>
