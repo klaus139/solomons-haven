@@ -39,14 +39,11 @@ const BlogSingle = () => {
 
                 <h1> {item.title} </h1>
                 <p>{item.desc}</p>
-                <p>{item.desc}</p>
+               
 
-                <h2>Two Column Text Sample</h2>
+                
 
-                <div className='para flex_space'>
-                  <p>{item.para}</p>
-                  <p>{item.para}</p>
-                </div>
+               
               </div>
               {/* --------- main-content--------- */}
 
