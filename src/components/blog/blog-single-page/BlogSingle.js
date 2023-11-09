@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react"
 import { Link } from "react-router-dom"
 import BlogData from "../BlogData"
 import EmptyFile from '../../../common/Empty/Empty';
-import HeadTitle from "../../../common/HeadTitle/HeadTitle";
+//import HeadTitle from "../../../common/HeadTitle/HeadTitle";
 import { useParams } from "react-router-dom"
 
 const BlogSingle = () => {
@@ -17,7 +17,7 @@ const BlogSingle = () => {
   }, [id])
   return (
     <>
-      <HeadTitle />
+      {/* <HeadTitle /> */}
 
       {item ? (
         <section className='single-page top'>
