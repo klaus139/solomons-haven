@@ -12,12 +12,8 @@ const Cards = (props) => {
       <div className='items'>
         <div className='img'  onClick={toggleModal} >
           <img src={props.imgaes} alt='Gallery'  />
-          
             <div><BsFillImageFill className="iconn" /></div>
-          
-  
         </div>
-
         <div className='title'>
           <h3>{props.title} </h3>
         </div>

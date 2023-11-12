@@ -23,6 +23,26 @@ const GalleryData = [
       img: "images/gallery6.jpeg",
       title: "Gallery Six",
     },
+    {
+      img: "images/foodrive1.jpeg",
+      title: "feed a child project",
+    },
+    {
+      img: "images/foodrive2.jpeg",
+      title: "feed a child project",
+    },
+    {
+      img: "images/foodrive3.jpeg",
+      title: "feed a child project",
+    },
+    {
+      img: "images/foodrive4.jpeg",
+      title: "feed a child project",
+    },
+    {
+      img: "images/foodrive5.jpeg",
+      title: "feed a child project",
+    },
   ]
   
   export default GalleryData
