@@ -1,6 +1,13 @@
 .aboutCard h4 {
     color: #31b675;
   }
+
+  .about-list li{
+    list-style: circle;
+    list-style-type: circle; /* Use 'circle' for a circle bullet, or 'disc' for a filled circle */
+    color: gray;
+     /* Adjust the padding as needed */
+  }
   .aboutCard h1 {
     font-size: 35px;
     font-weight: 100;

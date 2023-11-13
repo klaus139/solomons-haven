@@ -13,9 +13,15 @@ const AboutCard = () => {
           </h1>
           <p>
             We are a non-profit organization committed to making a positive impact on the lives of women and children. Our mission spans various crucial areas:
-            <br />
-            Maternal Health <br/> Child Mortality <br /> Youth Empowerment <br /> Support for Widows <br/> Literacy Programs <br /> Youth Health Initiative
           </p>
+          <ul className="about-list">
+              <li>Maternal Health</li>
+              <li>Child Mortality</li>
+              <li>Youth Empowerment</li>
+              <li>Support for Widows</li>
+              <li>Literacy Programs</li>
+              <li>Youth Health Initiative</li>
+            </ul>
         
           <p>
             Our dedication is to provide support, education, and resources to empower these communities, helping them overcome challenges and build a better future. We firmly believe that every woman and child deserves a chance to thrive, and we work tirelessly to turn this belief into a reality.
