@@ -1,27 +1,27 @@
 const GalleryData = [
     {
       img: "images/gallery1.jpeg",
-      title: "Gallery One",
+      title: "Provision of farm tools",
     },
     {
       img: "images/gallery2.jpeg",
-      title: "Gallery Two",
+      title: "Food Donations",
     },
     {
       img: "images/gallery3.jpeg",
-      title: "Gallery Three",
+      title: "welfare packages",
     },
     {
       img: "images/gallery4.jpeg",
-      title: "Gallery Four",
+      title: "Welfare packages donations",
     },
     {
       img: "images/gallery5.jpeg",
-      title: "Gallery Five",
+      title: "Food Donations",
     },
     {
       img: "images/gallery6.jpeg",
-      title: "Gallery Six",
+      title: "Farm tools donations",
     },
     {
       img: "images/foodrive1.jpeg",
