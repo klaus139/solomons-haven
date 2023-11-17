@@ -6,6 +6,9 @@
     background-color: white;
     border-radius: 5px;
   }
+  .para p{
+    color:black;
+  }
   .Testimonial .box p {
     font-size: 13px;
     font-style: italic;

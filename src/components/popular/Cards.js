@@ -59,7 +59,7 @@ const Cards = () => {
               <div className='cards'>
                 <div className='item'>
                   <div className='imgae'>
-                    <img src={value.image} alt='' />
+                    <img src={value.image} alt='' className="popimg"/>
                     <i className='fas fa-map-marker-alt'>
                      
                     </i>

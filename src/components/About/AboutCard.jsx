@@ -30,13 +30,9 @@ const AboutCard = () => {
             Explore More <i className='fas fa-long-arrow-alt-right'></i>
           </button>
         </div>
-        <div className='row image'>
+        <div className='row'>
           <img src={images.aboutimg} alt='' className="about-image" />
-          <div className='control-btn'>
-            <button className='prev'>
-              {/* Add functionality for previous button if needed */}
-            </button>
-          </div>
+         
         </div>
       </div>
     </>
