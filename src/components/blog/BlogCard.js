@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "react-router-dom"
+import './BlogHome.css'
 
 const BlogCard = ({ item: { id, cover, title, desc, para, catgeory, date } }) => {
   return (

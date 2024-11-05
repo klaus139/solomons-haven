@@ -1,4 +1,13 @@
 const BlogData = [
+  {
+    id: 1,
+    date: "November 5, 2024",
+    category: "Charity",
+    title: "Feed a child project",
+    cover: "/images/fachild.jpeg",
+    para: "Providing hot meals for the children in rural communities",
+    desc: "This program is aimed to help school children have balanced diets as they learn in school in rural communities.",
+  },
     {
         id: 1,
         date: "January 21, 2021",
