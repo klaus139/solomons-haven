@@ -92,6 +92,27 @@ const BlogData = [
       para: "The Solomons Haven Book Club is a social club establised to encourage young people to engage in reading and give them a community of friends with like minds",
       desc: "The Solomons Haven Book Club is a social club establised to encourage young people to engage in reading and give them a community of friends with like minds who love to read and like to see the world through the pages of a book. it is a really cool initiative and i would encourage all young people who love reading to join.",
     },
+    {
+      id: 9,
+      date: "January 10, 2025",
+      catgeory: "Charity",
+      title: "Annual Meet Their Need, 2024",
+      cover: "/images/singlepage/meetneed.jpeg",
+      para: "Annual Meet Their Needs Program 2024",
+      desc: "The Annual Meet Their Needs Program 2024 aimed to give back to society by supporting the less privileged. This initiative provided essential resources—food, clothing, medical care, and educational supplies—to underserved communities. Proudly sponsored by the Josephus Foundation, the program was able to reach more individuals and expand its impact. The foundation’s support allowed us to mobilize volunteers, secure necessary resources, and ensure the program's success. Throughout the event, attendees received not only physical essentials but also emotional support. Volunteers interacted with children, offering fun activities and mentorship, while adults had access to medical consultations and workshops on mental health and personal development. The program served hundreds of families, providing hope and a sense of community to those in need. The 2024 edition set the stage for future growth, with plans for more comprehensive support in the coming years. We are deeply grateful to the Josephus Foundation for their generous sponsorship, and we look forward to expanding the program to continue making a meaningful difference in the lives of those who need it most.",
+      additionalImages: [
+        "/images/meet1.jpeg",
+        "/images/meet2.jpeg",
+        "/images/meet3.jpeg",
+        "/images/meet4.jpeg",
+        "/images/meet5.jpeg",
+        "/images/meet6.jpeg",
+        "/images/meet7.jpeg",
+        "/images/meet8.jpeg",
+        "/images/meet9.jpeg",
+        "/images/meet10.jpeg"
+      ]
+    },
   ]
   
   export default BlogData
